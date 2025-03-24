@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TetőProfil - Professzionális Tetőfedés és Tetőfelújítás</title>
+    
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Vendor Prefixes CSS -->
+    <link rel="stylesheet" href="css/vendor-prefixes.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span class="text-primary">Tető</span><span class="text-danger">Profil</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Szolgáltatások</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Rólunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Munkáink</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Vélemények</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kapcsolat</a>
+                        </li>
+                    </ul>
+                    <div class="ms-3">
+                        <a href="tel:+36301234567" class="btn btn-outline-light">
+                            <i class="fas fa-phone-alt me-2"></i>+36 30 123 4567
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 hero-content">
+                    <h1>Professzionális Tetőfedés és Tetőfelújítás</h1>
+                    <p>Minőségi anyagok, szakértő kivitelezés, hosszútávú garancia</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">Ingyenes árajánlat</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 stat-item">
+                        <h3 class="counter">15</h3>
+                        <p>Év tapasztalat</p>
+                    </div>
+                    <div class="col-md-4 stat-item">
+                        <h3 class="counter">1000</h3>
+                        <p>Elégedett ügyfél</p>
+                    </div>
+                    <div class="col-md-4 stat-item">
+                        <h3 class="counter">500</h3>
+                        <p>Befejezett projekt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Szolgáltatásaink</h2>
+                    <p class="section-subtitle">Szakértő megoldások minden tetővel kapcsolatos igényre</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Új Tetőfedés</h3>
+                        <p>Új építésű házak tetőfedése minőségi anyagokkal, precíz kivitelezéssel, hosszú távú garanciával.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tetőfelújítás</h3>
+                        <p>Régi, elhasználódott tetők szakszerű felújítása, javítása, korszerűsítése, energiahatékonyság növelése.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tint-slash"></i>
+                        </div>
+                        <h3>Tetőszigetelés</h3>
+                        <p>Lapos és ferde tetők víz- és hőszigetelése, beázások megszüntetése, energiaveszteség csökkentése.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h3>Ereszcsatorna Szerelés</h3>
+                        <p>Új ereszcsatorna rendszerek telepítése, régiek javítása, cseréje, tisztítása és karbantartása.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Villámvédelem</h3>
+                        <p>Tetők villámvédelmi rendszereinek tervezése, kivitelezése, felülvizsgálata és karbantartása.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Tetőfelmérés</h3>
+                        <p>Ingyenes, részletes tetőfelmérés, állapotfelmérés, szakvélemény készítése és árajánlat adása.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Részletek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="https://images.pexels.com/photos/5816303/pexels-photo-5816303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tetőfedés" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-content">
+                    <h2 class="section-title">Rólunk</h2>
+                    <p class="lead">15 éves szakmai tapasztalattal rendelkező tetőfedő vállalkozás vagyunk.</p>
+                    <p>A TetőProfil csapata elkötelezett a minőségi munka és az ügyfelek teljes elégedettsége mellett. Szakembereink folyamatosan képzik magukat, hogy a legújabb technológiákat és anyagokat alkalmazzák munkájuk során.</p>
+                    <p>Célunk, hogy minden ügyfelünk számára hosszú távú, megbízható megoldást nyújtsunk, legyen szó új tetőfedésről, felújításról vagy karbantartásról.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle text-primary"></i>
+                                <span>Minőségi anyagok</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle text-primary"></i>
+                                <span>Szakképzett csapat</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle text-primary"></i>
+                                <span>Pontos határidők</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle text-primary"></i>
+                                <span>Hosszú távú garancia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Miért válasszon minket?</h2>
+                    <p class="section-subtitle">Értékek, amelyek megkülönböztetnek minket a versenytársaktól</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="why-us-card text-center">
+                        <div class="why-us-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Minőségi Kivitelezés</h3>
+                        <p>Kizárólag prémium minőségű anyagokkal dolgozunk, és minden munkánkra garanciát vállalunk.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="why-us-card text-center">
+                        <div class="why-us-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Pontos Határidők</h3>
+                        <p>Tiszteletben tartjuk az időt, ezért mindig betartjuk a megbeszélt határidőket.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="why-us-card text-center">
+                        <div class="why-us-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Versenyképes Árak</h3>
+                        <p>Kiváló ár-érték arányt biztosítunk, rejtett költségek nélkül, átlátható árazással.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Korábbi Munkáink</h2>
+                    <p class="section-subtitle">Válogatás a sikeresen befejezett projektjeinkből</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <div class="portfolio-filters">
+                        <button class="btn btn-outline-primary active" data-filter="all">Mind</button>
+                        <button class="btn btn-outline-primary" data-filter="new">Új tetők</button>
+                        <button class="btn btn-outline-primary" data-filter="renovation">Felújítások</button>
+                        <button class="btn btn-outline-primary" data-filter="insulation">Szigetelések</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item new">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Új cseréptetős ház">
+                        <div class="card-body">
+                            <h5 class="card-title">Családi ház tetőfedés</h5>
+                            <p class="card-text">Új építésű családi ház tetőfedése prémium minőségű cseréppel.</p>
+                            <a href="#" class="btn btn-primary">Részletek</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item renovation">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/6934287/pexels-photo-6934287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Felújított tető">
+                        <div class="card-body">
+                            <h5 class="card-title">Tetőfelújítás</h5>
+                            <p class="card-text">Régi tető teljes felújítása, cserépcserével és új lécezéssel.</p>
+                            <a href="#" class="btn btn-primary">Részletek</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item insulation">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/6934286/pexels-photo-6934286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Tetőszigetelés">
+                        <div class="card-body">
+                            <h5 class="card-title">Tetőszigetelés</h5>
+                            <p class="card-text">Családi ház tetőterének utólagos hőszigetelése, energiamegtakarítás céljából.</p>
+                            <a href="#" class="btn btn-primary">Részletek</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Ügyfeleink Mondták</h2>
+                    <p class="section-subtitle">Elégedett ügyfeleink véleményei szolgáltatásainkról</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"Nagyon elégedett vagyok a TetőProfil munkájával. Gyorsan, precízen és tisztán dolgoztak. Az új tetőnk gyönyörű lett, és azóta sem volt vele semmi probléma."</p>
+                            <div class="testimonial-author">
+                                <h5 class="mb-0">Kovács István</h5>
+                                <p class="text-muted">Budapest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"A tetőfelújításunk során professzionális hozzáállást tapasztaltunk. Minden a megbeszélt határidőre és költségvetésen belül készült el. Csak ajánlani tudom őket!"</p>
+                            <div class="testimonial-author">
+                                <h5 class="mb-0">Nagy Éva</h5>
+                                <p class="text-muted">Debrecen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="testimonial-rating mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                            <p class="card-text">"Évek óta beázott a tetőnk, több szakember is próbálkozott a javítással sikertelenül. A TetőProfil csapata végre megoldotta a problémát, azóta száraz a padlásunk."</p>
+                            <div class="testimonial-author">
+                                <h5 class="mb-0">Szabó János</h5>
+                                <p class="text-muted">Győr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Hogyan Dolgozunk</h2>
+                    <p class="section-subtitle">Egyszerű és átlátható folyamat az elejétől a végéig</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="process-timeline">
+                        <div class="process-item d-flex">
+                            <div class="process-icon bg-primary text-white">
+                                <span>1</span>
+                            </div>
+                            <div class="process-content">
+                                <h4>Kapcsolatfelvétel</h4>
+                                <p>Hívjon minket vagy küldjön üzenetet a kapcsolatfelvételi űrlapon keresztül.</p>
+                            </div>
+                        </div>
+                        <div class="process-item d-flex">
+                            <div class="process-icon bg-primary text-white">
+                                <span>2</span>
+                            </div>
+                            <div class="process-content">
+                                <h4>Ingyenes Felmérés</h4>
+                                <p>Szakembereink a helyszínen felmérik a tetőt és megbeszélik az igényeket.</p>
+                            </div>
+                        </div>
+                        <div class="process-item d-flex">
+                            <div class="process-icon bg-primary text-white">
+                                <span>3</span>
+                            </div>
+                            <div class="process-content">
+                                <h4>Részletes Árajánlat</h4>
+                                <p>Részletes, tételekre bontott árajánlatot készítünk, rejtett költségek nélkül.</p>
+                            </div>
+                        </div>
+                        <div class="process-item d-flex">
+                            <div class="process-icon bg-primary text-white">
+                                <span>4</span>
+                            </div>
+                            <div class="process-content">
+                                <h4>Kivitelezés</h4>
+                                <p>Szakképzett csapatunk elvégzi a munkát a megbeszélt határidőre.</p>
+                            </div>
+                        </div>
+                        <div class="process-item d-flex">
+                            <div class="process-icon bg-primary text-white">
+                                <span>5</span>
+                            </div>
+                            <div class="process-content">
+                                <h4>Átadás és Garancia</h4>
+                                <p>A munka befejezése után átadjuk a garanciát és a szükséges dokumentációt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Áraink</h2>
+                    <p class="section-subtitle">Átlátható árazás, rejtett költségek nélkül</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 pricing-card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Alap Csomag</h3>
+                            <h4 class="price">8.000 Ft/m²-től</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tetőfedés bontással</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Alapanyagok</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Munkadíj</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>5 év garancia</li>
+                                <li class="mb-3"><i class="fas fa-times text-danger me-2"></i>Tetőszerkezet felújítás</li>
+                                <li class="mb-3"><i class="fas fa-times text-danger me-2"></i>Hőszigetelés</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Árajánlat kérése</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 pricing-card border-primary">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h3>Prémium Csomag</h3>
+                            <h4 class="price">12.000 Ft/m²-től</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tetőfedés bontással</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Prémium alapanyagok</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Munkadíj</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>10 év garancia</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tetőszerkezet felújítás</li>
+                                <li class="mb-3"><i class="fas fa-times text-danger me-2"></i>Hőszigetelés</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-primary">Árajánlat kérése</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 pricing-card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Komplett Csomag</h3>
+                            <h4 class="price">16.000 Ft/m²-től</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tetőfedés bontással</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Prémium alapanyagok</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Munkadíj</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>15 év garancia</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tetőszerkezet felújítás</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Hőszigetelés</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Árajánlat kérése</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="text-muted">Az árak tájékoztató jellegűek, a pontos árajánlatot a helyszíni felmérés után tudjuk elkészíteni.</p>
+                    <a href="#contact" class="btn btn-lg btn-primary">Egyedi árajánlat kérése</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Kapcsolat</h2>
+                    <p class="section-subtitle">Vegye fel velünk a kapcsolatot és kérjen ingyenes árajánlatot</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info">
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text ms-3">
+                                <h5>Cím</h5>
+                                <p class="mb-0">1234 Budapest, Példa utca 123.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text ms-3">
+                                <h5>Telefon</h5>
+                                <p class="mb-0"><a href="tel:+36301234567">+36 30 123 4567</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text ms-3">
+                                <h5>Email</h5>
+                                <p class="mb-0"><a href="mailto:info@tetoprofil.hu">info@tetoprofil.hu</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item d-flex align-items-center">
+                            <div class="contact-icon bg-primary text-white">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text ms-3">
+                                <h5>Nyitvatartás</h5>
+                                <p class="mb-0">H-P: 8:00 - 17:00, Szo: 9:00 - 13:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Név *" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" class="form-control" placeholder="Email *" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="tel" class="form-control" placeholder="Telefon *" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-select" required>
+                                            <option selected disabled value="">Válasszon szolgáltatást</option>
+                                            <option>Új tetőfedés</option>
+                                            <option>Tetőfelújítás</option>
+                                            <option>Tetőszigetelés</option>
+                                            <option>Ereszcsatorna szerelés</option>
+                                            <option>Villámvédelem</option>
+                                            <option>Tetőfelmérés</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Üzenet *" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Üzenet küldése</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map">
+        <div class="container-fluid p-0">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86074.83430542059!2d19.0403!3d47.4984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2sBudapest!5e0!3m2!1shu!2shu!4v1616661631211!5m2!1shu!2shu" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="text-primary">TetőProfil</h3>
+                    <p>Professzionális tetőfedés és tetőfelújítás minőségi anyagokkal, szakértő kivitelezéssel, hosszútávú garanciával.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5>Navigáció</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white">Kezdőlap</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white">Szolgáltatások</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white">Rólunk</a></li>
+                        <li class="mb-2"><a href="#portfolio" class="text-white">Munkáink</a></li>
+                        <li class="mb-2"><a href="#testimonials" class="text-white">Vélemények</a></li>
+                        <li><a href="#contact" class="text-white">Kapcsolat</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h5>Szolgáltatások</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white">Új tetőfedés</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Tetőfelújítás</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Tetőszigetelés</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Ereszcsatorna szerelés</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Villámvédelem</a></li>
+                        <li><a href="#" class="text-white">Tetőfelmérés</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5>Elérhetőségek</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>1234 Budapest, Példa utca 123.</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2"></i><a href="tel:+36301234567" class="text-white">+36 30 123 4567</a></li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i><a href="mailto:info@tetoprofil.hu" class="text-white">info@tetoprofil.hu</a></li>
+                        <li><i class="fas fa-clock me-2"></i>H-P: 8:00 - 17:00, Szo: 9:00 - 13:00</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 TetőProfil. Minden jog fenntartva.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">Adatvédelmi irányelvek</a>
+                    <a href="#" class="text-white me-3">ÁSZF</a>
+                    <a href="#" class="text-white">Süti beállítások</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
