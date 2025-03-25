@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - TetőProfil</title>
+    
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Vendor Prefixes CSS -->
+    <link rel="stylesheet" href="../css/vendor-prefixes.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="text-primary">Tető</span><span class="text-danger">Profil</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../szolgaltatasok/index.html">Szolgáltatások</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../rolunk/index.html">Rólunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../referenciak/index.html">Munkáink</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../gyik/index.html">GYIK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../arlista/index.html">Árlista</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../kapcsolat/index.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+                    <div class="ms-3">
+                        <a href="tel:+36301234567" class="btn btn-outline-light">
+                            <i class="fas fa-phone-alt me-2"></i>+36 30 123 4567
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Blog</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../index.html">Kezdőlap</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">Szakmai cikkek és hírek</h2>
+                    <p class="section-subtitle">Hasznos információk a tetőfedés világából</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Blog Sidebar -->
+                <div class="col-lg-4 order-lg-1 order-2">
+                    <div class="blog-sidebar">
+                        <!-- Search Widget -->
+                        <div class="sidebar-widget search-widget mb-4">
+                            <h4 class="widget-title">Keresés</h4>
+                            <div class="search-form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Keresés...">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Categories Widget -->
+                        <div class="sidebar-widget categories-widget mb-4">
+                            <h4 class="widget-title">Kategóriák</h4>
+                            <ul class="categories-list">
+                                <li><a href="#">Tetőfedés <span>(8)</span></a></li>
+                                <li><a href="#">Tetőfelújítás <span>(6)</span></a></li>
+                                <li><a href="#">Tetőszigetelés <span>(4)</span></a></li>
+                                <li><a href="#">Tetőablakok <span>(3)</span></a></li>
+                                <li><a href="#">Ereszcsatorna <span>(5)</span></a></li>
+                                <li><a href="#">Energiahatékonyság <span>(7)</span></a></li>
+                                <li><a href="#">Tetőkarbantartás <span>(4)</span></a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Recent Posts Widget -->
+                        <div class="sidebar-widget recent-posts-widget mb-4">
+                            <h4 class="widget-title">Legfrissebb cikkek</h4>
+                            <div class="recent-post">
+                                <div class="recent-post-img">
+                                    <img src="images/placeholders/tetoszigeteles_300x200.jpg" alt="Tetőszigetelés" class="img-fluid">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5><a href="tetoszigeteles-fontossaga.html">A tetőszigetelés fontossága a modern épületeknél</a></h5>
+                                    <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. március 15.</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <div class="recent-post-img">
+                                    <img src="images/placeholders/cserepteto_300x200.jpg" alt="Cseréptető" class="img-fluid">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5><a href="cserepteto-vagy-femlemez.html">Cseréptető vagy fémlemez? Melyiket válasszam?</a></h5>
+                                    <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. február 28.</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <div class="recent-post-img">
+                                    <img src="images/placeholders/tetofelujtias_300x200.jpg" alt="Tetőfelújítás" class="img-fluid">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h5><a href="tetofelujitas-legjobb-idoszak.html">Mikor a legjobb időszak a tetőfelújításra?</a></h5>
+                                    <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. február 10.</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Tags Widget -->
+                        <div class="sidebar-widget tags-widget mb-4">
+                            <h4 class="widget-title">Címkék</h4>
+                            <div class="tags">
+                                <a href="#" class="tag">Tetőfedés</a>
+                                <a href="#" class="tag">Felújítás</a>
+                                <a href="#" class="tag">Szigetelés</a>
+                                <a href="#" class="tag">Cserép</a>
+                                <a href="#" class="tag">Fémlemez</a>
+                                <a href="#" class="tag">Energiatakarékosság</a>
+                                <a href="#" class="tag">Tetőablak</a>
+                                <a href="#" class="tag">Ereszcsatorna</a>
+                                <a href="#" class="tag">Karbantartás</a>
+                                <a href="#" class="tag">Tető</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Newsletter Widget -->
+                        <div class="sidebar-widget newsletter-widget">
+                            <h4 class="widget-title">Hírlevél</h4>
+                            <p>Iratkozzon fel hírlevelünkre, hogy elsőként értesüljön a legfrissebb cikkekről és akciókról!</p>
+                            <form class="newsletter-form">
+                                <div class="form-group mb-3">
+                                    <input type="email" class="form-control" placeholder="E-mail cím" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Feliratkozás</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blog Posts -->
+                <div class="col-lg-8 order-lg-2 order-1 mb-5 mb-lg-0">
+                    <!-- Featured Post -->
+                    <div class="blog-post featured-post mb-5">
+                        <div class="post-img">
+                            <img src="images/placeholders/tetoszigeteles_1260x750.jpg" alt="Tetőszigetelés" class="img-fluid">
+                            <div class="post-category">
+                                <a href="#">Tetőszigetelés</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. március 15.</span>
+                                <span class="post-author"><i class="far fa-user me-2"></i>Kovács István</span>
+                                <span class="post-comments"><i class="far fa-comment-alt me-2"></i>12 hozzászólás</span>
+                            </div>
+                            <h3 class="post-title"><a href="tetoszigeteles-fontossaga.html">A tetőszigetelés fontossága a modern épületeknél</a></h3>
+                            <p class="post-excerpt">A megfelelő tetőszigetelés nemcsak a beázások ellen véd, hanem jelentősen csökkenti az energiaköltségeket is. Cikkünkben bemutatjuk a legmodernebb tetőszigetelési megoldásokat és azok előnyeit, valamint tanácsokat adunk a megfelelő szigetelőanyag kiválasztásához.</p>
+                            <a href="tetoszigeteles-fontossaga.html" class="btn btn-outline-primary">Tovább olvasom</a>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <!-- Post 1 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/cserepteto_600x400.jpg" alt="Cseréptető vagy fémlemez" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Tetőfedés</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. február 28.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="cserepteto-vagy-femlemez.html">Cseréptető vagy fémlemez? Melyiket válasszam?</a></h3>
+                                    <p class="post-excerpt">Összehasonlítjuk a két legnépszerűbb tetőfedő anyagot, hogy segítsünk a döntésben. Megvizsgáljuk az előnyöket, hátrányokat, költségeket és élettartamot.</p>
+                                    <a href="cserepteto-vagy-femlemez.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 2 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/tetofelujtias_600x400.jpg" alt="Tetőfelújítás időszak" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Tetőfelújítás</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. február 10.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="tetofelujitas-legjobb-idoszak.html">Mikor a legjobb időszak a tetőfelújításra?</a></h3>
+                                    <p class="post-excerpt">Évszakonként elemezzük a tetőfelújítás előnyeit és hátrányait, hogy segítsünk megtalálni az ideális időpontot az Ön projektjéhez.</p>
+                                    <a href="tetofelujitas-legjobb-idoszak.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 3 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/tetofedes_600x400.jpg" alt="Energiahatékony tető" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Energiahatékonyság</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. január 25.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="energiahatekonysag-noveles.html">Hogyan növelhető a tető energiahatékonysága?</a></h3>
+                                    <p class="post-excerpt">Praktikus tanácsok és modern megoldások, amelyekkel jelentősen csökkentheti otthona energiafogyasztását a tetőn keresztül.</p>
+                                    <a href="energiahatekonysag-noveles.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 4 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/tetofedes_600x400.jpg" alt="Tetőkarbantartás" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Tetőkarbantartás</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2025. január 12.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="tetokarbantartas-tippek.html">5 fontos tetőkarbantartási tipp minden évszakra</a></h3>
+                                    <p class="post-excerpt">Évszakonkénti ellenőrzési lista és karbantartási tippek, amelyekkel meghosszabbíthatja tetője élettartamát és megelőzheti a költséges javításokat.</p>
+                                    <a href="tetokarbantartas-tippek.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 5 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/tetofedes_600x400.jpg" alt="Tetőablak beépítés" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Tetőablakok</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2024. december 18.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="tetoablak-beepites-elonyok.html">Tetőablak beépítés: előnyök és megfontolások</a></h3>
+                                    <p class="post-excerpt">Hogyan változtathatja meg a tetőablak az otthonát? Bemutatjuk a különböző típusokat, előnyöket és a beépítés folyamatát.</p>
+                                    <a href="tetoablak-beepites-elonyok.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 6 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img src="images/placeholders/ereszcsatorna_600x400.jpg" alt="Ereszcsatorna rendszer" class="img-fluid">
+                                    <div class="post-category">
+                                        <a href="#">Ereszcsatorna</a>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <span class="post-date"><i class="far fa-calendar-alt me-2"></i>2024. december 5.</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="ereszcsatorna-rendszer-kivalasztasa.html">Hogyan válasszuk ki a megfelelő ereszcsatorna rendszert?</a></h3>
+                                    <p class="post-excerpt">Részletes útmutató az ereszcsatorna anyagok, méretek és stílusok kiválasztásához, valamint a szakszerű telepítés lépései.</p>
+                                    <a href="ereszcsatorna-rendszer-kivalasztasa.html" class="btn btn-sm btn-outline-primary">Tovább olvasom</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <nav aria-label="Blog pagination">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article Section -->
+    <section class="featured-article py-5 bg-light">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Kiemelt szakmai cikk</h2>
+                    <p class="section-subtitle">Részletes útmutató a tetőfelújításhoz</p>
+                </div>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="featured-article-img">
+                        <img src="images/placeholders/tetofelujtias_1260x750.jpg" alt="Tetőfelújítás lépései" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="featured-article-content">
+                        <h3>Tetőfelújítás lépésről lépésre: Átfogó útmutató</h3>
+                        <p class="mb-4">A tetőfelújítás az egyik legfontosabb beruházás, amit otthonán végezhet. Nemcsak az épület védelmét biztosítja, hanem növeli annak értékét és energiahatékonyságát is. Ebben a részletes útmutatóban végigvezetjük a tetőfelújítás teljes folyamatán, a tervezéstől a kivitelezésig.</p>
+                        
+                        <div class="featured-article-highlights mb-4">
+                            <h4>A cikkben érintett témák:</h4>
+                            <ul>
+                                <li>A tetőfelújítás szükségességének felismerése</li>
+                                <li>Költségvetés tervezés és anyagválasztás</li>
+                                <li>Szakember kiválasztásának szempontjai</li>
+                                <li>A tetőfelújítás folyamata és időzítése</li>
+                                <li>Minőségellenőrzés és garanciális kérdések</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="tetofelujitas-lepesrol-lepesre.html" class="btn btn-primary">Elolvasom a teljes cikket</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Iratkozzon fel hírlevelünkre</h2>
+                    <p class="section-subtitle mb-4">Értesüljön elsőként a legfrissebb cikkekről, szakmai tippekről és akciós ajánlatainkról</p>
+                    
+                    <form class="subscribe-form">
+                        <div class="row">
+                            <div class="col-md-8 mb-3 mb-md-0">
+                                <input type="email" class="form-control" placeholder="Az Ön e-mail címe" required>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary w-100">Feliratkozás</button>
+                            </div>
+                        </div>
+                        <div class="form-check mt-3 text-start">
+                            <input class="form-check-input" type="checkbox" id="privacyCheck" required>
+                            <label class="form-check-label" for="privacyCheck">
+                                Elfogadom az <a href="#">adatvédelmi tájékoztatót</a> és hozzájárulok a hírlevelek küldéséhez.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">TetőProfil</h4>
+                    <p>Professzionális tetőfedés és tetőfelújítás 15 éves szakmai tapasztalattal, minőségi anyagokkal és hosszú távú garanciával.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Szolgáltatások</h4>
+                    <ul class="footer-links">
+                        <li><a href="../szolgaltatasok/uj-tetofedes.html">Új Tetőfedés</a></li>
+                        <li><a href="../szolgaltatasok/tetofelujitas.html">Tetőfelújítás</a></li>
+                        <li><a href="../szolgaltatasok/tetoszigeteles.html">Tetőszigetelés</a></li>
+                        <li><a href="../szolgaltatasok/ereszcsatorna.html">Ereszcsatorna Szerelés</a></li>
+                        <li><a href="../szolgaltatasok/villamvedelem.html">Villámvédelem</a></li>
+                        <li><a href="../szolgaltatasok/tetofelmeres.html">Tetőfelmérés</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Gyors linkek</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Kezdőlap</a></li>
+                        <li><a href="../rolunk/index.html">Rólunk</a></li>
+                        <li><a href="../referenciak/index.html">Referenciák</a></li>
+                        <li><a href="../gyik/index.html">GYIK</a></li>
+                        <li><a href="../arlista/index.html">Árlista</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="../kapcsolat/index.html">Kapcsolat</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-uppercase mb-4">Kapcsolat</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt me-2"></i> 1234 Budapest, Példa utca 123.</p>
+                        <p><i class="fas fa-phone-alt me-2"></i> <a href="tel:+36301234567">+36 30 123 4567</a></p>
+                        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:info@tetoprofil.hu">info@tetoprofil.hu</a></p>
+                        <p><i class="fas fa-clock me-2"></i> H-P: 8:00 - 17:00, Szo: 9:00 - 13:00</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 TetőProfil. Minden jog fenntartva.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">Adatvédelmi tájékoztató</a></li>
+                        <li><a href="#">ÁSZF</a></li>
+                        <li><a href="#">Cookie szabályzat</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
